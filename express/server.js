@@ -8,7 +8,7 @@ const TeleBot = require('telebot');
 
 const bot = new TeleBot('1238769131:AAGXzi8rLKi5dt9ejNMRE4iV-9aqT0e18eo');
 
-bot.on(/^\/say (.+)$/, async(msg, props) => {
+bot.on(/^\/gplink (.+)$/, async(msg, props) => {
 
     const text =await props.match[1];
 
